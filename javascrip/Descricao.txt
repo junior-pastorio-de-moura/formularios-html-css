@@ -1,0 +1,3 @@
+#####
+Nesta pasta vou colocar exercícios (códigos javascript) que realizarei para estudar essa linguagem!!
+#####
