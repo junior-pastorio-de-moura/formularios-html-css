@@ -1,0 +1,3 @@
+#####
+Pasta que vai as imagens utilizadas no site.
+#####
