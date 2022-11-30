@@ -1,0 +1,3 @@
+#####
+Criei um pequeno código com Javascript onde um array recebe valores que será digitado pelo usuário e exibido no console.
+#####
