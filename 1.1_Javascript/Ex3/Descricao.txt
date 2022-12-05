@@ -1,0 +1,5 @@
+#####
+O usuário deve escolher a quantidade de números que deseja digitar, e o programa
+irá pedir esses números, recebe-los e elevá-los aos quadrado, subtrair por 4 e mostrar
+no console os resultados.
+#####
