@@ -1,0 +1,3 @@
+#####
+Código Javascript que dá bom dia, boa tarde e boa noite.
+#####
