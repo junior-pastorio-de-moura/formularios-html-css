@@ -1,0 +1,3 @@
+#####
+Loope que exibe múltiplos de 5 numa faixa de 5 a 50.
+#####
