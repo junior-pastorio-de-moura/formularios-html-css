@@ -1,0 +1,3 @@
+#####
+Código JavaScript que imprime somente valores ímpares.
+#####
