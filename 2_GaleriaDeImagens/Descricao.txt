@@ -1,3 +1,0 @@
-##############
-Criei uma pequena galeria de imagens não responsiva com HTML e CSS puros.
-##############
