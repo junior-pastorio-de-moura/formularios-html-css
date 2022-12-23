@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html, body{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+aside{
+    width: 20%;
+    min-height: 100vh;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 29, 29);
+    border-right: 2px solid black;
+    color: #fff;
+    font-size: 1.2rem;
+}
+aside .box1{
+    width: 100%;
+    height: 60vh;
+}
+aside .box1 h2{
+    margin-bottom: 15px;
+}
+aside .box1 ul li span{
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+aside .box2{
+    width: 100%;
+    height: 4vh;
+}
+aside .box1, aside .box2{
+    padding-left: 30px;
+    padding-top: 45px;
+}
+aside .box1 ul li, aside .box2 ul li{
+    margin-bottom: 12px;
+}
+aside .box1 ul, aside .box2 ul{
+    list-style: none;
+}
+main{
+    width: 80%;
+    min-height: 100vh;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}
+main .box1{
+    width: 100%;
+    min-height: 25vh;
+    position: relative;
+}
+main .box1 div:first-child{
+    position: absolute;
+    width: 80%;
+    height: 25vh;
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+main .box1 div:first-child h1{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+main .box1 div:first-child ul{
+    list-style: none;
+}
+main .box1 div:first-child ul li span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+main .box1 div:last-child{
+    position: absolute;
+    width: 20%;
+    max-width: 220px;
+    height: 25vh;
+    top: 0;
+    right: 0;
+    background-image: url(./rosto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .box2{
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    padding-bottom: 15px;
+}
+main .box2 h2,  main .box3 h2, main .box4 h2{
+    width: 100%;
+    min-height: 4vh;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: brown;
+    color: #fff;
+}
+main .box2 ul, main .box2 p{
+    margin: 15px;
+}
+main .box2 ul{
+    list-style: none;
+    width: 80%;
+}
+main .box2 ul li{
+    width: 80%;
+    margin-bottom: 15px;
+}
+main .box2 ul li span{
+    margin-right: 150px;
+}
+main .box2 p span{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+main .box2 ul li span, main .box2 p span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+main .box2 ul li:last-child span{
+    margin-right: 80px;
+}
+main .box3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column  ;
+}
+main .box3 div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main .box3 div ul{
+    list-style: none;
+}
+main .box3 div ul li{
+    margin-bottom: 5px;
+}
+main .box3 div ul li:first-child{
+    font-weight: bold;
+}
+main .box3 div ul li span{
+    margin-right: 15px;
+    font-weight: bold;
+}
+main .box4{
+    width: 100%;
+    height: auto;
+}
+main .box4 p{
+    margin: 8px;
+}
+main .box4 p span{
+    font-weight: bold;
+}
