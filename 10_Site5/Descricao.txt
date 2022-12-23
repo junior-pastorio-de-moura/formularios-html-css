@@ -1,3 +1,0 @@
-#####
-Site criado com html e css puro.
-#####
