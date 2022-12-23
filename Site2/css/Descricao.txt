@@ -1,0 +1,3 @@
+#####
+Esta pasta contém os arquivos de estilo utilizado no site.
+#####
