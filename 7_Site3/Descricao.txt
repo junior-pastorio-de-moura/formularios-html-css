@@ -1,3 +1,0 @@
-#####
-Site responsivo de 1 página, criado com flexbox.
-#####
