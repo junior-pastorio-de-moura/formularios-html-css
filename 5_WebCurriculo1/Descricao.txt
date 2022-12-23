@@ -1,3 +1,0 @@
-#####
-Primeiro exemplo de web currículo que criei, não responsivo.
-#####
