@@ -1,3 +1,0 @@
-#####
-Stie responsivo criado com html e css puro, com um pouco de javascript.
-#####
