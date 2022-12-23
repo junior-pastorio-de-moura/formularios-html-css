@@ -1,3 +1,0 @@
-#####
-Aqui vai os arquivos de estilos usados na página.
-#####
