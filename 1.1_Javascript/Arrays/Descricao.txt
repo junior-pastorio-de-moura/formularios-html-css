@@ -1,0 +1,1 @@
+Coloquei nessa pasta alguns estudos de arrays com javascript.
