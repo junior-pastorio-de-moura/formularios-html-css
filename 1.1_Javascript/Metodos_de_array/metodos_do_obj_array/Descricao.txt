@@ -1,0 +1,1 @@
+Nesta pasta coloquei alguns exemplos de uso dos métodos para array contidos na linguagem javascript!
