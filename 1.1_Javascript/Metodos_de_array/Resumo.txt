@@ -1,0 +1,46 @@
+Métodos de arrays
+
+contat(arg1, arg2, ... argn) - Acrescenta no array os elementos definidos em seu argumento;
+
+every(função(elem, ind, obj) [,thisObjeto]) - Percorre cada um dos elementos do array e executa uma função callback, 
+quando a condição não é satisfeita ele retorna false, caso todos os
+elementos do array satisfaça a função retorna true;
+
+filter(função(elem, ind, obj) [,thisObjeto]) - Filtra os elementos de um array e retorna esse array
+após a aplicação do filtro sem alterar o array original;
+
+indexOf(elemento, [arg2, true ou false]) - Retorna o índice do elemento de um array
+//Retorna o índice do elemento do arrei, se o valor não existir ele retorna -1
+
+lastIndexOf(elemento, [arg2, true ou false]) - Semelhante ao método anterior, porém retorna o último índice do elemento procurado;
+
+join([arg]) - Transforma os elementos de um array em uma string;
+
+map(função(elem, ind, obj) [,thisObjeto]) - Percorre cada um dos elementos do array e modificá-lo conforme uma função callback;
+
+pop() - Remove o último elemento do array e retorna o valor que foi removido;
+
+push(arg1, arg2, ... argn) - Retrona o número de elementros do array;
+
+reduce(função(v1, v2, ind, arr) [,vInicial]) - Percorre cada um dos elementos do array e executa uma função callback;
+
+reduceRight(função(v1, v2, ind, arr) [,vInicial]) - Semelhante à função anterior, porém percorre o array do último para o primeiro elemento;
+
+reverse() - Inverte a ordem dos elementos de um array, altera o array existente;
+
+shift() - Remove o primeiro elemento do array e retorna o valor que foi removido;
+
+//slice(arg1 [,arg2]) - Esse método retorna um subarray do array
+
+/*some(função(elen, ind, obj) [,thisObjeto]) - Percorre cada um dos elementos de um array
+e executa uma função callback. Quando encontra um elemento que satisfaça as condições impostas
+no corpo da função, retorna true, caro contrário retorna false.*/
+
+/*sort([função]) - Deixa os elementos de um array ordenados, por padrão, coloca os elementos
+em ordem alfabética.*/
+
+//splice(arg1 [, arg2, arg3 ... argn]) - Insere e/ou remove elementos de um array
+
+/*toString - Converte cada elemento do array em string e retorna uma lista de elementos separados por vírgula*/
+
+/*unshift(args) - Insere elementos no início do array e retorna  a nova quantidade de elementos do array*/
