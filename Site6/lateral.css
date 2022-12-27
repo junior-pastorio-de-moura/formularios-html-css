@@ -1,0 +1,69 @@
+aside h2{
+    text-align: center;
+    color: #036;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    margin: 0 auto;
+}
+
+nav ul li{
+    list-style: none;
+    width: 80%;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu1{
+    background-color: #ff6e19;
+
+}
+
+.menu1 li:first-child{
+    background-color: #c24802;
+}
+
+.primeira li:hover{
+    background-color: #036;
+}
+
+.menu1 ul li a{
+    color: #fff;
+}
+
+.menu1 ul li a, .menu2 ul li a{
+    line-height: 2;
+}
+
+.menu1 ul, .menu2 ul{
+    margin: 0 auto;
+}
+
+.menu2{
+    background-color: #eee;
+    margin-top: 2vh;
+}
+
+.menu2 ul li a{
+    color: black;
+}
+
+.menu2 ul li a:hover{
+    text-decoration: underline;
+}
+
+aside img{
+    width: 95%;
+    margin-left: 2.5%;
+}

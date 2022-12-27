@@ -1,0 +1,25 @@
+header{
+    background-color: #036;
+}
+
+header h1, header h2{
+    color: #fff;
+    margin-right: 3vw;
+    text-align: right;
+}
+
+header h1{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1.8rem;
+}
+header h2{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-size: 1.2rem;
+}
+
+header hgroup{
+    float: right;
+    height: 12vh;
+}
