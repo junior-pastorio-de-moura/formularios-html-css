@@ -1,0 +1,1 @@
+Site criado com os estudos do livro Fundamentos de html e css, site símples não responsivo!
