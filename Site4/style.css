@@ -86,9 +86,17 @@ img{
 	float: left;
 	text-align: center;
 }
-.menu li {padding: 1.5%}
-.menu li a {font-size: 2em; color: #fff; padding: 1.5% 3%;}
-.menu li a:hover {border: 1px solid #da6709;}
+.menu li{
+	padding: 1.5%;
+}
+.menu li a{
+	font-size: 2em;
+	color: #fff;
+	padding: 1.5% 3%;
+}
+.menu li a:hover{
+	border: 1px solid #da6709;
+}
 /*MENU*/
 /*banner*/
 .banner {background: url('banner3.jpg') no-repeat fixed;}
@@ -113,28 +121,69 @@ img{
 .newsletter form {margin-top: 2%;}
 .newsletter input {color: #fff; border: 1px solid rgba(255, 255. 255,0.3);
 padding: 5%; width: 100%;}
-.newsletter button {width: 100%; color: #130400; padding: 5%; cursor: pointer;margin-top: 2%;} 
+.newsletter button{
+	width: 100%;
+	color: #130400;
+	padding: 5%;
+	cursor: pointer;
+	margin-top: 2%;
+}
 /*NEWSLETTER*/
 /*RODAPÉ*/
-.social-icons a {font-size: 1.5em; color: rgba(255, 255, 255, 0.7); margin-right: 3%;}
-.social-icons a:last-child {margin-right: 0;}
-.social-icons a:hover {color: rgba(255, 255, 255);}
-.copyright {margin-top: 2%. color: rgba(255, 255, 255, 7.0);}
+.social-icons a{
+	font-size: 1.5em;
+	color: rgba(255, 255, 255, 0.7);
+	margin-right: 3%;
+}
+.social-icons a:last-child{
+	margin-right: 0;
+}
+.social-icons a:hover{
+	color: rgba(255, 255, 255);
+}
+.copyright{
+	margin-top: 2%. color: rgba(255, 255, 255, 7.0);
+}
 /*RODAPÉ*/
 /*========MOBILE FIRST========*/
 /* SMALL DEVICES - SMARTPHONES */
 @media screen and (min-width: 480px){
-	.logo {width: 214px; background: url('logo2.png') center center/214px no-repeat;}
-	.btn {font-size: 2em;}
+	.logo{
+		width: 214px;
+		background: url('logo2.png') center center/214px no-repeat;
+	}
+	.btn{
+		font-size: 2em;
+	}
 }
 /* SMALL DEVICES - TABLETS */
 @media screen and (min-width: 768px){
-	.servico {width: 49%; float: left; margin-right: 2%;}
-	.servico:nth-child(2){margin-right: 0;}
-	.newsletter h2 {font-size: 2em;}
-	.newsletter h3 {font-size: 1.5em;}
-	.newsletter input {width: 70%; padding: 2%; float: left; margin-right: 1%;}
-	.newsletter button {width: 29%; padding: 2%; float: right; margin-top: 0;}
+	.servico{
+		width: 49%;
+		float: left;
+		margin-right: 2%;
+	}
+	.servico:nth-child(2){
+		margin-right: 0;
+	}
+	.newsletter h2{
+		font-size: 2em;
+	}
+	.newsletter h3{
+		font-size: 1.5em;
+	}
+	.newsletter input{
+		width: 70%;
+		padding: 2%;
+		float: left;
+		margin-right: 1%;
+	}
+	.newsletter button{
+		width: 29%;
+		padding: 2%;
+		float: right;
+		margin-top: 0;
+	}
 }
 /* MEDIUM DEVICES - TABLETS & DESKTOPS */
 @media screen and (min-width: 960px){
@@ -149,11 +198,24 @@ padding: 5%; width: 100%;}
 	.title h3{
 		font-size: 2em;
 	}
-	.buttons {width: 30%; float: right; margin-top: 0;}
-	.servico {width: 32%;}
-	.servico:nth-child(2){margin-right: 2%;}
-	.servico:nth-child(3){margin-right: 0;}
-	.newsletter button {width: 20%; float: none;}
+	.buttons{
+		width: 30%;
+		float: right;
+		margin-top: 0;
+	}
+	.servico{
+		width: 32%;
+	}
+	.servico:nth-child(2){
+		margin-right: 2%;
+	}
+	.servico:nth-child(3){
+		margin-right: 0;
+	}
+	.newsletter button{
+		width: 20%;
+		float: none;
+	}
 }
 /* LARGE DEVICES - WIDE SCREENS */
 @media screen and (min-width: 1280px){
