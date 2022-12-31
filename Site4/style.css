@@ -99,28 +99,83 @@ img{
 }
 /*MENU*/
 /*banner*/
-.banner {background: url('banner3.jpg') no-repeat fixed;}
-.title h2 {font-size: 2.5em; color: #fff; font-weight: 700;}
-.title h3 {font-size: 1.5em; color: #fff;}
-.buttons {width: 100%; margin-top: 2%;}
-.buttons i {float: right;}
-.btn {width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%;}
-.btn-cadastrar {color: #130400;}
-.btn-sobre {color: #fff; margin-top: 2%;}
+.banner{
+	background: url('banner3.jpg') no-repeat fixed;
+}
+.title h2{
+	font-size: 2.5em;
+	color: #fff;
+	font-weight: 700;
+}
+.title h3{
+	font-size: 1.5em;
+	color: #fff;
+}
+.buttons{
+	width: 100%;
+	margin-top: 2%;
+}
+.buttons i{
+	float: right;
+}
+.btn{
+	width: 100%;
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 5%;
+}
+.btn-cadastrar{
+	color: #130400;
+}
+.btn-sobre{
+	color: #fff;
+	margin-top: 2%;
+}
 /*banner*/
 /*SERVIÇOS*/
-.servico {width: 100%;  text-align: left; margin-bottom: 3%;}
-.servico img {border-radius: 7px 7px 0 0;}
-.inner {padding: 7%;}
-.inner a {font-size: 1.5em; color: #130400; font-weight: 700;}
-.inner h4 {font-size: 1.2em; color: #130400; margin-top: 2%;}
-.inner p { margin-top: 6%; color: #130400; line-height: 1.5em;}
+.servico{
+	width: 100%;
+	text-align: left;
+	margin-bottom: 3%;
+}
+.servico img{
+	border-radius: 7px 7px 0 0;
+}
+.inner{
+	padding: 7%;
+}
+.inner a{
+	font-size: 1.5em;
+	color: #130400;
+	font-weight: 700;
+}
+.inner h4{
+	font-size: 1.2em;
+	color: #130400;
+	margin-top: 2%;
+}
+.inner p{
+	margin-top: 6%;
+	color: #130400;
+	line-height: 1.5em;
+}
 /*SERVIÇOS*/
 /*NEWSLETTER*/
-.newsletter h2 {font-size: 1.5em; color: #fff; font-weight: 700;}
-.newsletter form {margin-top: 2%;}
-.newsletter input {color: #fff; border: 1px solid rgba(255, 255. 255,0.3);
-padding: 5%; width: 100%;}
+.newsletter h2{
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 700;
+}
+.newsletter form{
+	margin-top: 2%;
+}
+.newsletter input{
+	color: #fff;
+	border: 1px solid rgba(255, 255. 255,0.3);
+	padding: 5%;
+	width: 100%;
+}
 .newsletter button{
 	width: 100%;
 	color: #130400;
