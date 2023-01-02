@@ -1,0 +1,314 @@
+@import "./reset.css";
+@import "./form.css";
+@import "./menutopo.css";
+@import "./rodape.css";
+
+header{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 87vh;
+    background-image: url("imagens/fundotopo.jpg");
+    background-position: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+}
+header ul li a img{
+    height: 13px;
+    width: 40px;
+}
+header h1{
+    margin-top: 12vh;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.8;
+}
+header > p{
+    margin-top: 3vh;
+    font-size: 18px;
+    color: #cecece;
+}
+header > nav{
+    margin-top: 1vh;
+}
+.botoes{
+    margin-top: 10vh;
+    width: 100%;
+    height: 10vh;
+    padding-left: 1vw;
+}
+.botoes > button{
+    float: left;
+}
+.esq{
+    margin-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    width: 12vw;
+    border-radius: 20px;
+    color: #a3a3a3;
+    background: hsla(70, 50%, 70%, 0);
+    border: 0.2px solid #cece;
+}
+.esq:hover{
+    transition: all 0.2s linear;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0.5px 0.5px  4px rgb(252, 30, 78);
+}
+.dir{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    width: 12vw;
+    border-radius: 20px;
+    color: #a3a3a3;
+    background-color: #fff;
+}
+.dir:hover{
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px  4px rgb(252, 30, 78);
+}
+main{
+    margin-top: 8.5vh;
+}
+div.conteiner1{
+    border: none;
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+.conteiner1 > hgroup{
+    text-align: center;
+}
+.conteiner1 hgroup > small{
+    color: #979797;
+    position: relative;
+    bottom: 20px;
+}
+.box1, .box2, .box3{
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box1 > p, .box2 > p, .box3 > p{
+    line-height: 2;
+    color: #979797;
+}
+.box1 > h2, .box2 > h2, .box3 > h2{
+    margin-bottom: 2vh;
+}
+.box1 > img, .box2 > img, .box3 > img{
+    margin-bottom: 2vh;
+}
+.box1{margin-left: 4%;}
+.box2{margin-left: 1%; margin-right: 1%;}
+.box3{margin-right: 4%;}
+
+.conteiner2{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15vh;
+    height: 60vh;
+    width: 100%;
+    border-bottom: 1px solid #cecece;
+}  
+.conteiner2 img{
+    float: left;
+    margin-left: 5%;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+}
+.conteiner2 div.box1{
+    height: 40vh;
+    width: 50%;
+    text-align: justify;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 10vh;
+}
+.conteiner2 hgroup > small{
+    color: #979797;
+    position: relative;
+    bottom: 20px;
+}
+.conteiner2 hgroup{
+    text-align: center;
+}
+.conteiner3{
+    border: none;
+    width: 100%;
+    height: 40vh;
+    box-sizing: border-box;
+    background: #fff;
+}
+.conteiner3 .box1{
+    float: left;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    height: 20vh;
+    margin-left: 10vw;
+    width: 30vw;
+}
+.conteiner3 p{
+    line-height: 2;
+}
+.conteiner3 em{
+    margin-bottom: 3vh;
+}
+.conteiner3 > img{
+    position: relative;
+    left: 30vw;
+    top: -10vh;
+}
+.conteiner4{
+    border: none;
+    border-top: 0.5px solid #979797;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40vh;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.conteiner4 div.box1{
+    margin-top: 10vh;
+    border: none;
+    padding: 0;
+    width: 40%;
+    height: 30vh;
+}
+.conteiner4 div.box2{
+    margin-top: 10vh;
+    border: none;
+    padding: 0;
+    width: 40%;
+    height: 30vh;
+    text-align: justify;
+}
+.conteiner4 div.box2 p > span{
+    font-weight: 500;
+    font-size: 23px;
+    color: black;
+    margin-bottom: 5vh;
+}
+.conteiner5{
+    padding-top: 8vh;
+    padding-bottom: 1vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border: none;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+}
+.conteiner5 div.box1{
+    width: 100%;
+}
+.conteiner5 div.box1 > small{
+    color: #979797;
+    margin-bottom: 3vh;
+}
+.conteiner5 div.box1 > h1{
+    margin-bottom: 8vh;
+}
+.conteiner5 div.box1  p{
+    box-sizing: border-box;
+    width: 65vw;
+    margin: 0 auto;
+    color: #979797;
+    font-size: 18px;
+}
+.conteiner5 > hgroup{
+    width: 30vh;
+    text-align: center;
+    margin-bottom: 15vh;
+    margin: 0 auto;
+}
+.conteiner5 > hgroup p{
+    color: rgb(151, 56, 206);
+    font-size: 55px;
+}
+.conteiner5 > hgroup small{
+    margin-top: 5vh;
+    color: #979797;
+    font-size: 14px;
+}
+.conteiner6{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10vh;
+    padding-top: 10vh;
+    box-sizing: border-box;
+}
+.conteiner6 > small{
+    color: #979797;
+}
+.conteiner6 > h1{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-size: 35px;
+}
+.conteiner6 > p{
+    font-size: 20px;
+    line-height: 1.8;
+    width: 65vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 8vh;
+}
+.comeceaganhar{
+    width: 20vw;
+    height: 8vh;
+    padding-top: 1vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+.comeceaganhar button{
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(252, 30, 78);
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 2.2vw;
+    padding-right: 2.2vw;
+    margin-bottom: 0.5vh;
+    border-radius: 30px;
+}
+.comeceaganhar button:hover{
+    cursor: pointer;
+}
+.comeceaganhar small{
+    color: #979797;
+}
+.comeceaganhar small > a{
+    color: rgb(25, 173, 231);
+    text-decoration: none;
+}
+.comeceaganhar small > a:hover{
+    text-decoration: underline;
+}
+
+
+
+

@@ -1,0 +1,62 @@
+.perguntas{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.perguntas hgroup > small{
+    color: #979797;
+}
+.perguntas hgroup > h1{
+    color: black;
+    margin-top: 4.5vh;
+    margin-bottom: 5vh;
+}
+.perguntas hgroup > p{
+    color: #979797;
+}
+.perguntas ul{
+    list-style: none;
+    box-shadow: 2px 2px 2px #cecece;
+    height: 45vh;
+    width: 100%;
+    background-color: #fff;
+}
+.perguntas ul:hover{cursor: pointer;}
+.perguntas ul li{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-left: 5vw;
+    border-bottom: 1px solid #cecece;
+    text-align: left;
+    color: #979797;
+    font-size: 18px;
+}
+.perguntas ul li img{
+    float: right;
+    margin-right: 2vw;
+    height: 15px;
+    width: 15px;
+}
+hgroup{
+    margin: 0 auto;
+    padding-top: 20vh;
+    margin-bottom: 8vh;
+}
+.ainda p{
+    margin-left: 5%;
+    color: #eee;
+    font-size: 22px;
+}
+.ainda button{
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: #979797;
+    font-weight: bold;
+    background-color: #fff;
+}

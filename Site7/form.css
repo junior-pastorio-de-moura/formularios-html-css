@@ -1,0 +1,61 @@
+.pesquisa{
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    height: 30vh;
+    position: relative;
+    bottom: 14vh;
+    border-radius: 12px;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    box-sizing: border-box;
+}
+.pesquisa > small{
+    color: #979797;
+}
+div.pesquisa > h1{
+    margin-top: 3vh;
+    font-size: 30px;
+}
+.pesquisa form{
+    margin-top: 5vh;
+}
+.blocoIcones{
+    margin-top: 5vh;
+    margin: 0 auto;
+    width: 38%;
+    height: 40px;
+    border: 1px solid #ccc; 
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+}
+.blocoIcones input[type="text"]{
+    float: left;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #ccc;
+    color: navy; 
+    box-sizing: border-box;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 12px;
+    outline: none;
+    border: none;
+}
+.blocoIcones button{
+    float: left; 
+    width: 12%;
+    height: 100%;
+    border: none;
+    background: rgb(156, 91, 209);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    left: 35px;
+}

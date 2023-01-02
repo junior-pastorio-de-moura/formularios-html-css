@@ -1,0 +1,55 @@
+div.tax  h1, p{
+    text-align: center;
+}
+div.tax{
+    min-height: 80vh;
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 20vh;
+    box-sizing: border-box;
+}
+.pequeno{
+    margin-left: 40%;
+    color: #979797;
+}
+.tax > h1{
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+}
+.tax > p{
+    width: 60vw;
+    min-height: 10vh;
+    box-sizing: border-box;
+    word-wrap: normal;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #424141;
+    
+}
+ .tabela{
+    width: 65vw;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #eeeeee,
+                -2px 2px 3px #eeeeee;
+    color: #979797;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.tabela, th, td{
+    height: 6vh;
+    vertical-align: middle;
+    border: 1px solid #cecece;
+    padding-left: 2vw;
+}
+.tabela > b{
+    color: #777777;
+}
+.tabela th, td{
+    border-left: none;
+    border-right: none;
+    border-top: none;   
+}
+.tabela{border: none;}
+ 

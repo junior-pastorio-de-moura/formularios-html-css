@@ -1,0 +1,57 @@
+.conteiner6{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10vh;
+    padding-top: 10vh;
+    box-sizing: border-box;
+}
+.conteiner6 > small{
+    color: #979797;
+}
+.conteiner6 > h1{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-size: 35px;
+}
+.conteiner6 > p{
+    font-size: 20px;
+    line-height: 1.8;
+    width: 65vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 8vh;
+}
+.comeceaganhar{
+    width: 20vw;
+    height: 8vh;
+    padding-top: 1vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+.comeceaganhar button{
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(252, 30, 78);
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 2.2vw;
+    padding-right: 2.2vw;
+    margin-bottom: 0.5vh;
+    border-radius: 30px;
+}
+.comeceaganhar button:hover{
+    cursor: pointer;
+}
+.comeceaganhar small{
+    color: #979797;
+}
+.comeceaganhar small > a{
+    color: rgb(25, 173, 231);
+    text-decoration: none;
+}
+.comeceaganhar small > a:hover{
+    text-decoration: underline;
+}

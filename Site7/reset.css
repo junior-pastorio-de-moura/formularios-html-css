@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+#tudo{
+    background-color: #faf8f8;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
