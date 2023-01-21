@@ -1,0 +1,26 @@
+        @import "button.css";
+        @import "topo.css";
+        @import "footer.css";
+        @import "reset.css";
+        @import "main.css";
+        *{
+            border: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+        }
+        #tudo{
+            width: 100%;
+            min-height: 100vh;
+            margin: 0;
+            border: none;
+            padding: 0;
+        }
+        hr{
+            width: 95vw;
+            height: 2px;
+            background-color: black;
+            margin: 0 auto;
+        }
