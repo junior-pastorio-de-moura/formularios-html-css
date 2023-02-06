@@ -31,7 +31,7 @@ $msg = "Nome: $name\n" . "Você foi sequestrado $when_it_heppened" .
 
 echo $msg;
 
-$to = "junior-pmoura@educar.rs.gov.br";
+$to = "emial-para-enviar-o-formulario@gmail.com";
 $subject = "Aliens me abduziram - Relatório de abdução";
 
 //Enviando a mensagem com os dados do formulário por email
@@ -39,8 +39,8 @@ mail($to, $subject, $msg . 'From: ' . $email);
 
         mysql_connect (
             string $servidor = ini_get("localhost") ,
-            string $username = ini_get("junior_pastorio") ,
-            string $password = ini_get("123") ,
+            string $username = ini_get("usuario") ,
+            string $password = ini_get("senha") ,
             bool $new_link = false ,
             int $client_flags = 0
        ): recurso | falso
