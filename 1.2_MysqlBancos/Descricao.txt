@@ -1,0 +1,3 @@
+#####
+Nesta pasta está armazenado os arquivos .sql dos banco que criei!
+#####
