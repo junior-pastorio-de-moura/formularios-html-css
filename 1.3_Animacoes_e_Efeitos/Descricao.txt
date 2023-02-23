@@ -1,0 +1,3 @@
+#####
+Nesta pasta colocarei animações e efeitos úteis que poderei reutilizar em projetos futuros.
+#####
