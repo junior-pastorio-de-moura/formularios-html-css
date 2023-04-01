@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <meta author="Júnior Pastório">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #ccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        img{
+            width: 350px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function ascende(){
+            document.getElementById('lamp').src = "./lampada-ascesa.png";
+        }
+    </script>
+</head>
+<body>
+    <img id="lamp" src="./lampada-apagada.png" alt="Lâmpada" onclick="ascende()">
+</body>
+</html>
