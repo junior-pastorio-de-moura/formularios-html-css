@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards 1</title>
+    <style>
+        html{
+            box-sizing: border-box;
+            font: 10px sans-serif;
+        }
+        *, *:before, *:after{box-sizing: inherit;}
+        body{margin: 2rem 2rem;}
+        h1{font-size: 2rem; margin: 0 0 1rem 0; width: 100%; text-align: center;}
+        ul{list-style: none; margin: 1rem 0; padding: 0; font-size: 1.4rem;}
+        li > b{color: red; font-size: 1.8rem;}
+        button{
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            color: #fff;
+            background: #369;
+            cursor: pointer;
+            font-size: 1.6rem;
+            width: 50%;
+            margin: auto 0 1rem auto;
+        }
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        .produto{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            border: 1px solid #ccc;
+            border-radius: 1rem;
+            padding: 0.8rem;
+            width: 100%;
+            min-width: 24rem;
+            max-width: 30rem;
+            margin: 0 auto;
+            margin-bottom: 0.8rem;
+        }
+        @media all and (min-width 35rem){
+            body{
+                margin: 0 auto;
+            }
+            .container{
+                max-width: 1200px;
+                margin: 0 auto;
+                flex-flow: row wrap;
+            }
+            .produto{
+                max-width: 28rem;
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="container"><!--Container dos cards-->
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Cimento Votoran - CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/cimento.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>25,00</b></li>
+                <li>2x R$<b>12,50</b></li>
+                <li>cód<b>2912345</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Estribos - CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/estribo.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>50,00</b></li>
+                <li>2x R$<b>26,50</b></li>
+                <li>cód<b>2914115</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Rolo de arame - CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/arame.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>200,00</b></li>
+                <li>7x R$<b>30,20</b></li>
+                <li>cód<b>2912345</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Alicate - CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/alicate.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>60,00</b></li>
+                <li>4x R$<b>19,50</b></li>
+                <li>cód<b>8812245</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Alicate de Crimpar - CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/alicatecrimpar.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>40,00</b></li>
+                <li>3x R$<b>18,50</b></li>
+                <li>cód<b>7933045</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Parafusadeira a bateria - CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/parafusadeira.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>540,00</b></li>
+                <li>5x R$<b>115,90</b></li>
+                <li>cód<b>7913025</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Britadeira martelete- CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/birtadeira.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>2300,00</b></li>
+                <li>5x R$<b>208,70</b></li>
+                <li>cód<b>8953035</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section><section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Machado Emborrachado- CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/machado.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>300,00</b></li>
+                <li>3x R$<b>108,10</b></li>
+                <li>cód<b>6957032</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <section class="produto"><!--Cada card em um container do tipo section-->
+            <h1>Massa para erjunte- CP-II</h1><!--Nome do produto-->
+            <img src="./imagens/massarejunte.jpeg" alt="Saco de cimento Votoran"><!--Imagem do produto-->
+            <ul>
+                <li>R$<b>25,00</b></li>
+                <li>cód<b>6253025</b></li>
+            </ul>
+            <button type="button">Mais...</button><!--Botão para a página do produto-->
+        </section>
+        <!--Mais cards (produtos) com marcação HTML idêntica-->
+    </article> <!--Container-->
+</body>
+</html>
