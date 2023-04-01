@@ -1,3 +1,0 @@
-#####
-Menu dropdown com efeito hover.
-#####
