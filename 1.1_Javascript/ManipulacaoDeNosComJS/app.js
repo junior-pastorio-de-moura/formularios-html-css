@@ -65,16 +65,3 @@ window.onload = function () {
     select.appendChild(option3);
 
 }
-
- /*ESSA BOSTA AQUI NÃO DEU CERTO
-    //Criando um novo item de lista para adicionar na lista existente
-    var li = document.createElement("li");
-    //li.appendChild(document.createTextNode("teste de lista"));
-    li.innerHTML = "teste de lista";
-    //Adiciona mais um elemento dentro do primeiro filho da div
-    div.firstChild.appendChild(li);
-
-    //REMOVENDO ELEMENTOS
-    var del = div.firstChild;
-    div.removeChild(del);
-    */
