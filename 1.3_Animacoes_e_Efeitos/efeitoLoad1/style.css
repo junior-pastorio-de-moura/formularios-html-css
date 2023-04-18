@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#ffb, #fac);
+}
+#container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    border: 12px solid rgba(12, 130, 15, .3);
+    border-top-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: load .6s linear infinite;
+    box-shadow: 0 0 44px rgb(170, 101, 101);
+    background-color: rgba(170, 101, 101, .4);
+}
+
+@keyframes load {
+    to {
+        transform: rotate(360deg);
+    }
+}
