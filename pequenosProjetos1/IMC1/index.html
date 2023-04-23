@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" id="formulario">
+        <fieldset>
+            <legend>Cálculo do IMC</legend>
+            <label for="kilos">kilos:</label>
+            <input type="text" name="kilos" maxlength="9">
+
+            <label for="metros">metros:</label>
+            <input type="text" name="metros">
+
+            <label for="centimetros">centímetros:</label>
+            <input type="text" name="centimetros">
+
+            <label for="imc">IMC:</label>
+            <input type="text" name="imc" disabled="disabled">
+            <a href="#" onclick="calcularIMC();">Calcular</a>
+            <!--Quando clicado no botão acima, ele recebe a função que calcula
+            o imc e exibe esse valor no input com name de valor imc através do atributo
+            for da tag label-->
+        </fieldset>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
