@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-fundo: rgb(54, 54, 99);
+    --cor-bordaImagem: rgb(75, 75, 107);
+    --cor-fundoIcone: rgb(64, 212, 212);
+}
+html, body{
+    width: 100%;
+}
+#container{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+}
+aside{
+    width: 25%;
+    min-height: 100vh;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+main{
+    width: 75%;
+    min-height: 100vh;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 12px solid var(--cor-fundo);
+    border-left: 12px solid var(--cor-fundo);
+    border-bottom: 12px solid var(--cor-fundo);
+}
+.hobby li, .contato li, .icon, .experiencia hgroup, .educacao hgroup{
+    display: flex;
+}
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: .8em;
+    margin-bottom: 15px;
+}
+.titulo h1, .titulo h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+aside > p{
+    margin-left: 15px;
+}
+aside img{
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 8px solid var(--cor-bordaImagem);
+    transform: rotate(15deg);
+}
+.icon{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, var(--cor-fundoIcone) 70%, var(--cor-fundo) 30%);
+}
+.icon i{
+    margin-right: 8px;
+    color: #fff;
+}
+.icon h3{
+    color: #fff;
+}
+aside > p{
+    color: #fff;
+}
+.contato{
+    margin-left: 15px;
+}
+.contato li p{
+    color: #fff;
+}
+.contato li i{
+    margin-right: 12px;
+    color: #fff;
+}
+.contato li{
+    margin: 12px 5px;
+}
+main .icon2{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 15px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        color: #fff;
+        background-color: var(--cor-fundoIcone);
+}
+main .icon2{
+    margin: 15px 0;
+}
+main .icon2 h3{
+    margin-left: 12px;
+}
+main > div{
+    margin-left: 20px;
+}
+main > div > section{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-auto-rows: auto;
+    margin-top: 15px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.skills figure{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 35px;
+}
+.skills figure img{
+    width: 80%;
+}
