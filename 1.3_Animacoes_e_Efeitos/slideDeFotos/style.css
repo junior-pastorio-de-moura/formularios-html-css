@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 50vh;
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    cursor: pointer;
+}
+.image{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 450px;
+    height: 100%;
+    object-fit: cover;
+    animation: cycle 2s linear infinite 0s forwards;
+    animation-play-state: paused;
+}
+.container:hover .image{
+    animation-play-state: running;
+}
+.image-1{
+    z-index: 10;
+}
+.image-2{
+    z-index: 9;
+    animation-delay: .2s;
+}
+.image-3{
+    z-index: 8;
+    animation-delay: .4s;
+}
+.image-4{
+    z-index: 7;
+    animation-delay: .6s;
+}
+.image-5{
+    z-index: 6;
+    animation-delay: .8s;
+}
+.image-6{
+    z-index: 5;
+    animation-delay: 1s;
+}
+.image-7{
+    z-index: 4;
+    animation-delay: 1.2s;
+}
+.image-8{
+    z-index: 3;
+    animation-delay: 1.4s;
+}
+.image-9{
+    z-index: 2;
+    animation-delay: 1.6s;
+}
+.image-10{
+    z-index: 1;
+    animation-delay: 1.8s;
+}
+@keyframes cycle {
+    from{
+        visibility: visible;
+        z-index: 11;
+    }
+    to{
+        visibility: hidden;
+        z-index: 0;
+    }
+}
