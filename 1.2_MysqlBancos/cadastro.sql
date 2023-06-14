@@ -40,7 +40,23 @@ CREATE TABLE `cursos` (
 
 LOCK TABLES `cursos` WRITE;
 /*!40000 ALTER TABLE `cursos` DISABLE KEYS */;
-INSERT INTO `cursos` VALUES (1,'html5','Curso de html5',80,37,2014),(2,'Algoritmos','Lógica de programação',20,25,2014),(3,'Photoshop','Dicas de Photoshop CC',10,8,2014),(4,'PHP','Curso de PHP para inicientes',40,20,2015),(5,'Java','Introdução a linguagem java',40,29,2019),(6,'Mysql','Banco de dados Mysql',30,15,2016),(7,'Word','Curso completo de word',12,30,2015),(8,'Sapateado','Danças rítmicas',22,30,2018),(9,'Cozinha Árabe','Aprenda a fazer kibe',8,30,2018),(10,'Youtuber','Gerar polêmica para gerar inscritos',5,2,2018),(11,'Móveis','Marcenaria prática',52,27,2017),(12,'Arduino','Desenvolvendo hambientes interativos',63,85,2020),(13,'Kung Fu','Aula de luta com o tio Young Kumaru',52,1,2019),(14,'Costura','Aprenda a costurar malhas',8,30,2017),(15,'Manicure','Desenho de unhas e salão de beleza',52,12,2015),(16,'Java - Parte 2','Programação orientada a objetos com Java',40,48,2016);
+INSERT INTO `cursos` VALUES
+(1,'html5','Curso de html5',80,37,2014),
+(2,'Algoritmos','Lógica de programação',20,25,2014),
+(3,'Photoshop','Dicas de Photoshop CC',10,8,2014),
+(4,'PHP','Curso de PHP para inicientes',40,20,2015),
+(5,'Java','Introdução a linguagem java',40,29,2019),
+(6,'Mysql','Banco de dados Mysql',30,15,2016),
+(7,'Word','Curso completo de word',12,30,2015),
+(8,'Sapateado','Danças rítmicas',22,30,2018),
+(9,'Cozinha Árabe','Aprenda a fazer kibe',8,30,2018),
+(10,'Youtuber','Gerar polêmica para gerar inscritos',5,2,2018),
+(11,'Móveis','Marcenaria prática',52,27,2017),
+(12,'Arduino','Desenvolvendo hambientes interativos',63,85,2020),
+(13,'Kung Fu','Aula de luta com o tio Young Kumaru',52,1,2019),
+(14,'Costura','Aprenda a costurar malhas',8,30,2017),
+(15,'Manicure','Desenho de unhas e salão de beleza',52,12,2015),
+(16,'Java - Parte 2','Programação orientada a objetos com Java',40,48,2016);
 /*!40000 ALTER TABLE `cursos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -73,7 +89,11 @@ CREATE TABLE `pessoas` (
 
 LOCK TABLES `pessoas` WRITE;
 /*!40000 ALTER TABLE `pessoas` DISABLE KEYS */;
-INSERT INTO `pessoas` VALUES (1,'Godofredo',NULL,'1984-01-02','M',78.50,1.83,'Brasil',3),(2,'Albernas',NULL,'1954-04-03','M',72.30,1.71,'Espanha',10),(3,'Rafael',NULL,'1987-08-18','M',68.90,1.91,'Suíça',7),(4,'Fernanda','Costureira','1979-03-12','F',89.90,1.59,'Honduras',4);
+INSERT INTO `pessoas` VALUES
+(1,'Godofredo',NULL,'1984-01-02','M',78.50,1.83,'Brasil',3),
+(2,'Albernas',NULL,'1954-04-03','M',72.30,1.71,'Espanha',10),
+(3,'Rafael',NULL,'1987-08-18','M',68.90,1.91,'Suíça',7),
+(4,'Fernanda','Costureira','1979-03-12','F',89.90,1.59,'Honduras',4);
 /*!40000 ALTER TABLE `pessoas` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -127,7 +147,12 @@ CREATE TABLE `teste` (
 
 LOCK TABLES `teste` WRITE;
 /*!40000 ALTER TABLE `teste` DISABLE KEYS */;
-INSERT INTO `teste` VALUES (1,'Pedro',22),(2,'Maria',12),(3,'Maricota',77),(4,'Pedro André da Silva',19),(5,'Eusébia Queirós',51);
+INSERT INTO `teste` VALUES
+(1,'Pedro',22),
+(2,'Maria',12),
+(3,'Maricota',77),
+(4,'Pedro André da Silva',19),
+(5,'Eusébia Queirós',51);
 /*!40000 ALTER TABLE `teste` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
