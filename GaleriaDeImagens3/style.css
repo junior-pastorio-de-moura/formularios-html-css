@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+html, body, .container{
+    width: 100%;
+}
+.container{
+    min-height: 100vh;
+    height: auto;
+}
+#header{
+    width: 100%;
+    height: 10vh;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+#header h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.menuDesktop{
+    display: none;
+}
+.menu-principal{
+    list-style: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(167, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s ease;
+    z-index: 150;
+}
+.menu-principal i{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.menu-principal li i{
+    z-index: 150;
+    position: relative;
+}
+.menuDrop{
+    position: absolute;
+    top: 2vh;
+    right: 1vh;
+    border-radius: 12px;
+    padding: 15px;
+    width: 450px;
+    height: auto;
+    background-color: rgb(167, 164, 164);
+    z-index: 50;
+    display: none;
+}
+.menuDrop li{
+    display: none;
+    background-color: rgb(167, 164, 164);
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all .4s ease;
+    border-radius: 12px;
+}
+.menuDrop li:hover{
+    background-color: #ccc;
+}
+.menu-principal:hover .menuDrop li{
+    display: block;
+}
+.menu-principal:hover .menuDrop {
+    display: block;
+}
+.menuDrop li:hover ~ .menuDrop{
+    display: block;
+    transition: all .4s ease;
+}
+.menuDrop li a{
+    color: #fff;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    min-width: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+}
+main h2{
+    text-align: center;
+    width: 60%;
+    margin: 15px auto;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 25px;
+}
+.img-box{
+    width: 450px;
+    height: auto;
+    margin: 15px auto;
+    min-height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.img-box:hover{
+    overflow: hidden;
+}
+.img-box div{
+    width: 100%;
+    height: 100%;
+    min-width: 450px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    z-index: 50;
+}
+.img-box div ul li span{
+    margin-right: 8px;
+    font-weight: bold;
+}
+.img-box div:hover{
+    transform: scale(1.1);
+    filter: blur(1px);
+}
+footer{
+    width: 100%;
+    min-height: 8vh;
+    background-color: rgb(167, 164, 164);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+footer .parte1 > div{
+    min-width: 300px;
+}
+footer .parte1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+footer .parte1 > div{
+    width: 30%;
+    margin: 15px auto;
+}
+footer .parte1 .form form{
+    width: 80%;
+    margin: 0 auto;
+}
+footer .parte1 .form h4{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(45, 98, 116);
+    margin-bottom: .7rem;
+}
+footer .parte1 .form form .input-box{
+    width: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .parte1 .form form .input-box label{
+    color: rgb(45, 98, 116);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer .parte1 .form form .input-box input{
+    width: 75%;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+}
+footer .parte1 .form form .input-box input:focus{
+    outline: 1.5px solid rgb(45, 98, 116);
+}
+footer .parte1 .form form input[type="submit"]{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(45, 98, 116);
+    transition: all ease-in-out .8s;
+}
+footer .parte1 .form form input[type="submit"]:hover{
+    color: #fff;
+    background-color: rgb(45, 98, 116);
+}
+footer .parte1 .opc-list{
+    padding: 8px;
+    background-color: rgb(177, 170, 170);
+}
+footer .parte1 .opc-list ul{
+    list-style: none;
+    margin-bottom: 15px;
+}
+footer .parte1 .opc-list ul, footer .parte1 .opc-list ul li{
+    width: 100%;
+}
+footer .parte1 .opc-list ul li{
+    padding: 5px; 
+    text-align: left;
+    transition: all .8s ease;
+    cursor: pointer;
+}
+footer .parte1 .opc-list ul li a{
+    color: rgb(45, 98, 116);
+    text-decoration: none;
+    transition: all .8s ease;
+    position: relative;
+    left: 0;
+}
+footer .parte1 .opc-list ul li a:hover{
+    color: #fff;
+    position: relative;
+    left: 8px;
+    font-weight: bold;
+
+}
+footer .parte1 .opc-list .midias{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer .parte1 .opc-list .midias li{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+footer .parte1 .opc-list .midias li:hover{
+    background-color: rgb(145, 139, 139);
+}
+footer .parte1 .opc-list .midias li i{
+    font-size: 20px;
+    color: rgb(45, 98, 116);
+}
+footer .parte1 .desc{
+    padding: 8px;
+}
+footer .parte1 .desc h4{
+    color: rgb(45, 98, 116); 
+    text-transform: uppercase;
+    margin-left: 8px;   
+}
+footer .parte1 .desc p{
+    padding: 8px;
+    text-indent: 15px;
+    color: rgba(19, 18, 18, 0.699);
+}
+footer .parte2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+@media screen and (max-width: 860px) {
+    footer .parte1{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+@media screen and (min-width: 640px) {
+    #header{
+        width: 100%;
+        height: 12vh;
+        display: flex;
+    }
+    #header h1{
+        width: 50%;
+    }
+    .menu-principal{
+        display: none;
+    }
+    .menuDesktop{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        list-style: none;
+    }
+    .menuDesktop li{
+        padding: 5px 25px;
+        transition: all .4s ease;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .menuDesktop li a{
+        color: #fff;
+        font-weight: bold;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    .menuDesktop li:hover{
+        background-color: rgb(177, 170, 170);
+    }
+}
+
+@media only screen
+  and (min-device-width: 600px)
+  and (max-device-width: 760px){
+    .menuDesktop li{
+        padding: 5px 14px;
+    }
+}
+@media (min-width: 880px){
+    main > div{
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 8px 12px;
+    }
+    main div .img-box{
+        max-width: 380px;
+        border-radius: 8px;
+    }
+}
