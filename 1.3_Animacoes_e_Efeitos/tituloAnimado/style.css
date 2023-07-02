@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #979797;
+}
+h2{
+    position: relative;
+    font-size: 5rem;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+}
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #edd54f;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #edd54f;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    60%{
+        width: 100%;
+    }
+}
