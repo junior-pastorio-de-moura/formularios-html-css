@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Syncopate', sans-serif;
+}
+:root{
+    --cor-fundo: linear-gradient(to right, rgb(103, 121, 168), rgb(104, 54, 184));
+    --cor-primaria: rgba(192, 188, 188, 0.3);
+    --cor-btn1: rgba(214, 38, 38, .4);
+    --cor-btn2: rgb(241, 157, 30);
+    --cor-btn3: rgba(248, 245, 46, 0.945);
+    --cor-btn4: rgba(34, 248, 123, 0.7);
+    --cor-btn5: rgb(0 67 247 / 94%);
+    --cor-btn6: rgba(235, 31, 218, 0.7);
+}
+.container{
+    /*display: grid;*/
+    min-height: 100vh;
+    /*grid-template-columns: 1fr;*/
+    background: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container button{
+    height: 40px;
+    width: 180px;
+    padding: 4px 15px;
+    margin-bottom: 30px;
+    font-size: .7rem;
+    font-weight: bold;
+    border-radius: 18px;
+    background-color: transparent;
+    color: var(--cor-primaria);
+    border: 3px solid var(--cor-primaria);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.container button.btn1:hover{
+    background-color: var(--cor-btn1);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 15px var(--cor-btn1),
+    0 0 25px var(--cor-btn1),
+    0 0 35px var(--cor-btn1),
+    0 0 55px var(--cor-btn1);
+}
+.container button.btn2:hover{
+    background-color: var(--cor-btn2);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 15px var(--cor-btn2),
+    0 0 25px var(--cor-btn2),
+    0 0 35px var(--cor-btn2),
+    0 0 55px var(--cor-btn2);
+}
+.container button.btn3:hover{
+    background-color: var(--cor-btn3);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 15px var(--cor-btn3),
+    0 0 25px var(--cor-btn3),
+    0 0 35px var(--cor-btn3),
+    0 0 55px var(--cor-btn3);
+}
+.container button.btn4:hover{
+    background-color: var(--cor-btn4);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 15px var(--cor-btn4),
+    0 0 25px var(--cor-btn4),
+    0 0 35px var(--cor-btn4),
+    0 0 55px var(--cor-btn4);
+}
+.container button.btn5:hover{
+    background-color: var(--cor-btn5);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 15px var(--cor-btn5),
+    0 0 25px var(--cor-btn5),
+    0 0 35px var(--cor-btn5),
+    0 0 55px var(--cor-btn5);
+}
+.container button.btn6:hover{
+    background-color: var(--cor-btn6);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 15px var(--cor-btn6),
+    0 0 25px var(--cor-btn6),
+    0 0 35px var(--cor-btn6),
+    0 0 55px var(--cor-btn6);
+}
