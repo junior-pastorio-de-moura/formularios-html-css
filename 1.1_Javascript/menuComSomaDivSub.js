@@ -62,4 +62,5 @@ while(z){
         console.log('Valor digitado não corresponde a nenhuma opção do menu, digite novamente...');
     }
 }
-/*Para esse código funcionar e ler dados no terminal instale as dependências com os comandos: npm init -y e npm i prompt-sync*/
+/*Para esse código funcionar e ler dados no terminal instale as dependências (na pasta do projeto)
+com os comandos: npm init -y e npm i prompt-sync*/
