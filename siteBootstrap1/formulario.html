@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de formulários</title>
+    <!--Selecionando a pasta da biblioteca bootstrap5 local-->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Inserindo jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonysmous"></script>
+</head>
+<body>
+    <nav class="navbar bg-danger navbar-danger navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="" class="navbar-brand d-flex align-items-center">
+                <svg class="fs-1 me-2" xmlns="http://www.w3.org/2000/svg" width="40px" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                    <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+                    <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z"/>
+                  </svg>
+                Bootstrap 5
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                  </svg>
+            </button>
+                <!-- <span class="navbar-text me-2">Curso completo</span> -->
+
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <div class="navbar-nav">
+                        <a href="./index.html" class="nav-link active">Principal</a>
+
+                        <div class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pdrodutos</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="dropdown-item">Produto 1</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Produto 2</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Produto 3</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Produto 4</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Produto 5</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="./formulario.html" class="nav-link">Cadastre-se</a>
+                        <a href="#" class="nav-link">Sobre</a>
+                    </div>
+                </div>
+                <form action="" class="d-flex">
+                    <div class="input-group">
+                        <input type="search" class="form-control me-2" placeholder="Buscar...">
+                        <button type="submit" class="btn btn-outline-success">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                              </svg> -->
+                              Buscar
+                        </button>
+                    </div>
+                </form>
+        </div> <!-- container -->
+    </nav><!--Fim do menu de navegação-->
+    <div class="container p-5">
+            <form method="post" class="needs-validation" novalidate>
+                <div class="row mb-3 g-3">
+                    <h2 class="display-3">Informações pessoais</h2>
+                    <div class="col-7">
+                        <label for="nomeCompleto" class="form-label">Nome completo</label>
+                        <input type="text" class="form-control" id="nomeCompleto" required>
+                        <div class="invalid-feedback">
+                            Você deve informar o seu nome!
+                        </div>
+                        <div class="valid-feedback">
+                            Nome informado corretamente.  
+                        </div>
+                    </div>
+
+                    <div class="col-5">
+                        <label for="numero" class="form-label">Número</label>
+                        <input type="text" class="form-control" id="logradouro">
+                        <div class="invalid-feedback">
+                            Você deve informar o número!
+                        </div>
+                        <div class="valid-feedback">
+                            Número informado corretamente.  
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="col-6">
+                        <label for="senha" class="form-label">Senha</label>
+                        <input type="text" class="form-control" id="senha">
+                    </div>
+                </div><!-- Fim da primeira parte do formulário-->
+
+                <div class="row mb-3 g-3">
+                    <h2 class="display-3">Endereço</h2>
+                    <hr>
+                    <div class="col-7">
+                        <label for="logradouro" class="form-label">Logradouro</label>
+                        <input type="text" class="form-control" id="logradouro" required>
+                        <div class="invalid-feedback">
+                            Você deve informar o logradouro!
+                        </div>
+                        <div class="valid-feedback">
+                            Logradouro informado corretamente.  
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <label for="numero" class="form-label">Número</label>
+                        <input type="text" class="form-control" id="logradouro">
+                        <div class="invalid-feedback">
+                            Você deve informar o número!
+                        </div>
+                        <div class="valid-feedback">
+                            Número informado corretamente.  
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <label for="complemento" class="form-label">Complemento</label>
+                        <input type="text" class="form-control" id="complemento">
+                    </div>
+                    <div class="col-6">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" class="form-control" id="bairro">
+                    </div>
+                    <div class="col-6">
+                        <label for="cidade" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="cidade">
+                    </div>
+                    <div class="col-6">
+                        <label for="estado" class="form-label">Estado</label>
+                        <input type="text" class="form-control" id="estado">
+                    </div>
+                    <div class="col-4">
+                        <label for="cep" class="form-label">CEP</label>
+                        <input type="text" class="form-control" id="cep" required pattern="[0-9]{8}">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" value="" id="termos">
+                            <label for="termos" class="form-check-label">Concordo com os termos e condições</label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer class="p-4 bg-dark text-light text-center">
+            Todas as faltas de direitos reservados
+        </footer>
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./validation.js" defer></script>
+</body>
+</html>
